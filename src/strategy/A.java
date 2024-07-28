@@ -7,11 +7,11 @@ package strategy;
 public class A {    
 }
 
-interface AStrategy {
+interface AStrategy { // Makes algorithm interchangeable through interface by implementing them. // abstract classes are also applicable
     public boolean check(String text);
 }
 
-class SahanStrategy implements AStrategy {
+class SahanStrategy implements AStrategy { // implements strategy through parent without changing the code (method signature, ... etc) with different algorithms
 
     @Override
     public boolean check(String text) {
