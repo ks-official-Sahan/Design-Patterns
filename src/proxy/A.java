@@ -22,7 +22,7 @@ class RealDatabase implements Database {
 
 class ProxyDatabase implements Database {
 
-    private RealDatabase realDatabase;
+    private final RealDatabase realDatabase;
     private String password;
 
     public ProxyDatabase(String password) {
