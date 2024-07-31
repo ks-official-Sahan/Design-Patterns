@@ -4,7 +4,7 @@ package strategy;
  *
  * @author ksoff
  */
-public class A {    
+class A {    
 }
 
 interface AStrategy { // Makes algorithm interchangeable through interface by implementing them. // abstract classes are also applicable
