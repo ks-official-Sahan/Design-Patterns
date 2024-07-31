@@ -4,8 +4,14 @@ package adapter;
  *
  * @author ksoff
  */
-public class A {
+class A {
 }
+
+/*
+ Adapter Pattern
+ - Interface Conversion: Adapts one interface to another, making incompatible interfaces compatible.
+ - Wrapper Class: The adapter class wraps the original class and provides a new interface that the client expects.
+*/
 
 /* Client */
 class Laptop {

@@ -4,6 +4,12 @@ package facade;
  *
  * @author ksoff
  */
+
+/*
+ Facade Pattern
+ - Simplified Interface: Providdes a single, simplified interface to a complex subsystem.
+ - Encapsulation: Hides the complexities of the subsystem from the client.
+ */
 class A {
 
     public void a1() {

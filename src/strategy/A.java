@@ -7,6 +7,11 @@ package strategy;
 class A {    
 }
 
+/*
+ Strategy Pattern
+ - Interchangeable: Makes algorithms interchangeable without changing the code that uses them.
+ - Flexible: Lets you switch algorithms at runtime based on the situation.
+*/
 interface AStrategy { // Makes algorithm interchangeable through interface by implementing them. // abstract classes are also applicable
     public boolean check(String text);
 }

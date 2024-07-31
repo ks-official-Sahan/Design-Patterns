@@ -7,6 +7,10 @@ package command;
 class A {
 }
 
+/*
+ Command Pattern
+ - Decouples Sender and Receiver: Seperates the object that invokes the operation from the one that knows how to perform it.
+ */
 interface Command {
 
     public abstract void execute();

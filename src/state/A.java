@@ -4,6 +4,11 @@ package state;
  *
  * @author ksoff
  */
+
+/*
+ State Pattern
+ - Encapsulates State-Specific Behavior: Allows an object to alter its behavior when its internam state changes
+*/
 interface State {
     public abstract void handle();
 }

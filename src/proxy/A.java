@@ -7,6 +7,10 @@ package proxy;
 class A {
 }
 
+/*
+Proxy Pattern
+*/
+
 interface Database {
 
     public abstract void search(String query);

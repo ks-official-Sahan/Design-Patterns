@@ -1,5 +1,11 @@
 package singleton;
 
+/*
+Singleton Pattern
+- Single Instance: Only one instance of the class is created.
+- Global Access: Provides a way to access that single instance from anywhere in the application.
+*/
+
 /**
  *
  * @author ksoff

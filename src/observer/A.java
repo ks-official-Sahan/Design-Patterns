@@ -8,12 +8,19 @@ import java.util.ArrayList;
  */
 class A {
 }
- 
-/* Method 1 */
 
-interface Subject  {
+/*
+ Observer Pattern
+ - Defines a One to Many Dependancy: When one object changes state, all its dependants (observers) are notified and updated automatically.
+ */
+
+/* Method 1 */
+interface Subject {
+
     public void registerObserver(Observer observer);
+
     public void removeObserver(Observer observer);
+
     public void notifyObservers();
 }
 
@@ -80,7 +87,7 @@ class Test {
 
     public static void main(String[] args) {
         ConcreateSubject subject = new ConcreateSubject();
-        
+
         Observer observer1 = new ConcreateObserver1();
         ConcreateObserver1 cObserver1 = new ConcreateObserver1();
 

@@ -4,6 +4,13 @@ package factory;
  *
  * @author ksoff
  */
+/*
+ Factory Pattern
+ - Object Creation: Encapsulates object creation to avoid exposing the instantiation logic to the client.
+ - Decoupling: Decouples the client code from the specific classes it needs to instantiate.
+*/
+class A {    
+}
 
 /* just leave the class modifiers as defaul and left the interface and factory class public */
 interface Gun {
